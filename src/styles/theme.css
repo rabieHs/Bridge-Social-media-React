@@ -1,0 +1,56 @@
+:root {
+  /* Primary Colors */
+  --primary-main: #1877f2;
+  --primary-dark: #1464d9;
+  --primary-light: #e7f3ff;
+  
+  /* Background Colors */
+  --bg-base: #f0f2f5;
+  --bg-secondary: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  
+  /* Text Colors */
+  --text-primary: #1a1a1a;
+  --text-secondary: #65676b;
+  --text-tertiary: #8a8d91;
+  
+  /* Interactive Colors */
+  --upvote: #ff4500;
+  --downvote: #7193ff;
+  --link: #1877f2;
+  --link-hover: #1464d9;
+  
+  /* Border Colors */
+  --border-light: #e4e6eb;
+  --border-dark: #dadde1;
+  
+  /* Button Colors */
+  --button-primary: #1877f2;
+  --button-primary-hover: #1464d9;
+  --button-secondary: #e4e6eb;
+  --button-secondary-hover: #dadde1;
+  
+  /* Interaction Colors */
+  --hover-overlay: rgba(0, 0, 0, 0.05);
+  --active-overlay: rgba(0, 0, 0, 0.1);
+  --disabled-overlay: rgba(0, 0, 0, 0.2);
+  
+  /* Shadow Effects */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}

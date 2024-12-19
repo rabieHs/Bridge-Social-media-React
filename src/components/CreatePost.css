@@ -1,0 +1,142 @@
+.create-post {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+}
+
+.create-post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar-icon {
+  color: #65676b;
+  font-size: 20px;
+}
+
+.post-input {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: none;
+  resize: none;
+  font-size: 15px;
+  font-family: inherit;
+  color: #1c1e21;
+  background-color: transparent;
+}
+
+.post-input:focus {
+  outline: none;
+}
+
+.post-input::placeholder {
+  color: #65676b;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e4e6eb;
+  margin: 12px -16px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #65676b;
+  background-color: #f0f2f5;
+  transition: background-color 0.2s;
+}
+
+.file-label:hover {
+  background-color: #e4e6eb;
+}
+
+.file-label.has-file {
+  color: #1877f2;
+  background-color: #e7f3ff;
+}
+
+.post-button {
+  margin-left: auto;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.post-button:hover {
+  background-color: #166fe5;
+}
+
+.post-button:disabled {
+  background-color: #e4e6eb;
+  color: #bcc0c4;
+  cursor: not-allowed;
+}
+
+.attachments-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: #f0f2f5;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #1c1e21;
+}
+
+.remove-attachment {
+  background: none;
+  border: none;
+  color: #65676b;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.remove-attachment:hover {
+  background-color: #e4e6eb;
+}

@@ -1,0 +1,123 @@
+.trending-sidebar {
+  width: var(--trending-sidebar-width);
+  position: sticky;
+  top: var(--navbar-height);
+  height: calc(100vh - var(--navbar-height));
+  padding: var(--content-spacing) var(--content-spacing) var(--content-spacing) 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-spacing);
+}
+
+.trending-header {
+  padding: var(--space-sm) var(--space-md);
+}
+
+.trending-header h2 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.trending-topics {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+}
+
+.trending-item {
+  padding: var(--space-md);
+  border-bottom: 1px solid var(--border-light);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.trending-item:last-child {
+  border-bottom: none;
+}
+
+.trending-item:hover {
+  background: var(--hover-overlay);
+}
+
+.topic-category {
+  color: var(--primary-500);
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.trending-item h3 {
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.trending-item p {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.trending-news {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  padding: var(--space-md);
+}
+
+.trending-news h3 {
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.news-item {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--bg-base);
+  margin-bottom: var(--space-sm);
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-item h4 {
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.news-item p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: var(--space-sm);
+}
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-500);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.read-more:hover {
+  color: var(--primary-600);
+}
+
+.read-more svg {
+  width: 16px;
+  height: 16px;
+}
